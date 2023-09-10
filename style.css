@@ -1,0 +1,64 @@
+
+/* 全体 */
+body{
+    background: linear-gradient(to bottom left,rgb(230, 193, 124),rgb(10, 82, 236));
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.wrapper{
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* 日曜 */
+td:first-child{
+    color: red;
+}
+
+/* 土曜 */
+td:last-child{
+    color: aqua;
+}
+
+/* prev */
+#prev{
+    margin-right: 20px;
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 30px;
+}
+#prev:hover{
+    color: #000; 
+    background-color: #c9c9c9; 
+    text-decoration: none; 
+}
+/* next */
+#next{
+    margin-left: 20px;
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 30px;
+}
+#next:hover{
+    color: #000;
+    background-color: #c9c9c9;
+    text-decoration: none;
+}
+table{
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+/* 今の日付と時刻 */
+#datetime{
+    background-color: rgb(96, 168, 146);
+    border-radius: 35px;
+}
+#datetime:hover{
+    background-color: #c9c9c9;
+    text-decoration: none;
+}

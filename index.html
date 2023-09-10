@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>カレンダー</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>カレンダー</h1>
+    <div>
+      <button id="datetime" onclick="datetimeshow()">時間まで知りたきゃどうぞ</button>
+      <script src="c_show.js"></script>
+    </div>
+    <div>
+      <h3 id="current_year"></h3>
+      <h3 id="current_month"></h3>
+      <h3 id="current_day"></h3>
+    </div>
+    <br>
+    <button id="prev">前月</button>
+    <button id="next">次月</button>
+
+    <!-- テーブル部位 -->
+    <table>
+      <thead>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody id="calendar_body">
+        <!-- 日付 -->
+      </tbody>
+      <script src="function.js"></script>
+    </table>
+  </div>
+</body>
+
+</html>
